@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		424F606B19315D6B004BF9C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 424F606A19315D6B004BF9C3 /* Foundation.framework */; };
+		424F606D19315D6B004BF9C3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 424F606C19315D6B004BF9C3 /* CoreGraphics.framework */; };
+		424F606F19315D6B004BF9C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 424F606E19315D6B004BF9C3 /* UIKit.framework */; };
+		424F607119315D6B004BF9C3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 424F607019315D6B004BF9C3 /* CoreData.framework */; };
+		424F607719315D6B004BF9C3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 424F607519315D6B004BF9C3 /* InfoPlist.strings */; };
+		424F607919315D6B004BF9C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 424F607819315D6B004BF9C3 /* main.m */; };
+		424F607D19315D6B004BF9C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 424F607C19315D6B004BF9C3 /* AppDelegate.m */; };
+		424F608019315D6B004BF9C3 /* ChineseUnionPortal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 424F607E19315D6B004BF9C3 /* ChineseUnionPortal.xcdatamodeld */; };
+		424F608219315D6B004BF9C3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 424F608119315D6B004BF9C3 /* Images.xcassets */; };
+		424F608919315D6B004BF9C3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 424F608819315D6B004BF9C3 /* XCTest.framework */; };
+		424F608A19315D6B004BF9C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 424F606A19315D6B004BF9C3 /* Foundation.framework */; };
+		424F608B19315D6B004BF9C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 424F606E19315D6B004BF9C3 /* UIKit.framework */; };
+		424F608C19315D6B004BF9C3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 424F607019315D6B004BF9C3 /* CoreData.framework */; };
+		424F609419315D6B004BF9C3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 424F609219315D6B004BF9C3 /* InfoPlist.strings */; };
+		424F609619315D6B004BF9C3 /* ChineseUnionPortalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 424F609519315D6B004BF9C3 /* ChineseUnionPortalTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		424F608D19315D6B004BF9C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 424F605F19315D6B004BF9C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 424F606619315D6B004BF9C3;
+			remoteInfo = ChineseUnionPortal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		424F606719315D6B004BF9C3 /* ChineseUnionPortal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChineseUnionPortal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		424F606A19315D6B004BF9C3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		424F606C19315D6B004BF9C3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		424F606E19315D6B004BF9C3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		424F607019315D6B004BF9C3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		424F607419315D6B004BF9C3 /* ChineseUnionPortal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChineseUnionPortal-Info.plist"; sourceTree = "<group>"; };
+		424F607619315D6B004BF9C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		424F607819315D6B004BF9C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		424F607A19315D6B004BF9C3 /* ChineseUnionPortal-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChineseUnionPortal-Prefix.pch"; sourceTree = "<group>"; };
+		424F607B19315D6B004BF9C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		424F607C19315D6B004BF9C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		424F607F19315D6B004BF9C3 /* ChineseUnionPortal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ChineseUnionPortal.xcdatamodel; sourceTree = "<group>"; };
+		424F608119315D6B004BF9C3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		424F608719315D6B004BF9C3 /* ChineseUnionPortalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChineseUnionPortalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		424F608819315D6B004BF9C3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		424F609119315D6B004BF9C3 /* ChineseUnionPortalTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChineseUnionPortalTests-Info.plist"; sourceTree = "<group>"; };
+		424F609319315D6B004BF9C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		424F609519315D6B004BF9C3 /* ChineseUnionPortalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChineseUnionPortalTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		424F606419315D6B004BF9C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				424F606D19315D6B004BF9C3 /* CoreGraphics.framework in Frameworks */,
+				424F607119315D6B004BF9C3 /* CoreData.framework in Frameworks */,
+				424F606F19315D6B004BF9C3 /* UIKit.framework in Frameworks */,
+				424F606B19315D6B004BF9C3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		424F608419315D6B004BF9C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				424F608919315D6B004BF9C3 /* XCTest.framework in Frameworks */,
+				424F608C19315D6B004BF9C3 /* CoreData.framework in Frameworks */,
+				424F608B19315D6B004BF9C3 /* UIKit.framework in Frameworks */,
+				424F608A19315D6B004BF9C3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		424F605E19315D6B004BF9C3 = {
+			isa = PBXGroup;
+			children = (
+				424F607219315D6B004BF9C3 /* ChineseUnionPortal */,
+				424F608F19315D6B004BF9C3 /* ChineseUnionPortalTests */,
+				424F606919315D6B004BF9C3 /* Frameworks */,
+				424F606819315D6B004BF9C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		424F606819315D6B004BF9C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				424F606719315D6B004BF9C3 /* ChineseUnionPortal.app */,
+				424F608719315D6B004BF9C3 /* ChineseUnionPortalTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		424F606919315D6B004BF9C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				424F606A19315D6B004BF9C3 /* Foundation.framework */,
+				424F606C19315D6B004BF9C3 /* CoreGraphics.framework */,
+				424F606E19315D6B004BF9C3 /* UIKit.framework */,
+				424F607019315D6B004BF9C3 /* CoreData.framework */,
+				424F608819315D6B004BF9C3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		424F607219315D6B004BF9C3 /* ChineseUnionPortal */ = {
+			isa = PBXGroup;
+			children = (
+				424F607B19315D6B004BF9C3 /* AppDelegate.h */,
+				424F607C19315D6B004BF9C3 /* AppDelegate.m */,
+				424F608119315D6B004BF9C3 /* Images.xcassets */,
+				424F607E19315D6B004BF9C3 /* ChineseUnionPortal.xcdatamodeld */,
+				424F607319315D6B004BF9C3 /* Supporting Files */,
+			);
+			path = ChineseUnionPortal;
+			sourceTree = "<group>";
+		};
+		424F607319315D6B004BF9C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				424F607419315D6B004BF9C3 /* ChineseUnionPortal-Info.plist */,
+				424F607519315D6B004BF9C3 /* InfoPlist.strings */,
+				424F607819315D6B004BF9C3 /* main.m */,
+				424F607A19315D6B004BF9C3 /* ChineseUnionPortal-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		424F608F19315D6B004BF9C3 /* ChineseUnionPortalTests */ = {
+			isa = PBXGroup;
+			children = (
+				424F609519315D6B004BF9C3 /* ChineseUnionPortalTests.m */,
+				424F609019315D6B004BF9C3 /* Supporting Files */,
+			);
+			path = ChineseUnionPortalTests;
+			sourceTree = "<group>";
+		};
+		424F609019315D6B004BF9C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				424F609119315D6B004BF9C3 /* ChineseUnionPortalTests-Info.plist */,
+				424F609219315D6B004BF9C3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		424F606619315D6B004BF9C3 /* ChineseUnionPortal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 424F609919315D6B004BF9C3 /* Build configuration list for PBXNativeTarget "ChineseUnionPortal" */;
+			buildPhases = (
+				424F606319315D6B004BF9C3 /* Sources */,
+				424F606419315D6B004BF9C3 /* Frameworks */,
+				424F606519315D6B004BF9C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChineseUnionPortal;
+			productName = ChineseUnionPortal;
+			productReference = 424F606719315D6B004BF9C3 /* ChineseUnionPortal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		424F608619315D6B004BF9C3 /* ChineseUnionPortalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 424F609C19315D6B004BF9C3 /* Build configuration list for PBXNativeTarget "ChineseUnionPortalTests" */;
+			buildPhases = (
+				424F608319315D6B004BF9C3 /* Sources */,
+				424F608419315D6B004BF9C3 /* Frameworks */,
+				424F608519315D6B004BF9C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				424F608E19315D6B004BF9C3 /* PBXTargetDependency */,
+			);
+			name = ChineseUnionPortalTests;
+			productName = ChineseUnionPortalTests;
+			productReference = 424F608719315D6B004BF9C3 /* ChineseUnionPortalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		424F605F19315D6B004BF9C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = ucsd;
+				TargetAttributes = {
+					424F608619315D6B004BF9C3 = {
+						TestTargetID = 424F606619315D6B004BF9C3;
+					};
+				};
+			};
+			buildConfigurationList = 424F606219315D6B004BF9C3 /* Build configuration list for PBXProject "ChineseUnionPortal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 424F605E19315D6B004BF9C3;
+			productRefGroup = 424F606819315D6B004BF9C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				424F606619315D6B004BF9C3 /* ChineseUnionPortal */,
+				424F608619315D6B004BF9C3 /* ChineseUnionPortalTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		424F606519315D6B004BF9C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				424F607719315D6B004BF9C3 /* InfoPlist.strings in Resources */,
+				424F608219315D6B004BF9C3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		424F608519315D6B004BF9C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				424F609419315D6B004BF9C3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		424F606319315D6B004BF9C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				424F608019315D6B004BF9C3 /* ChineseUnionPortal.xcdatamodeld in Sources */,
+				424F607D19315D6B004BF9C3 /* AppDelegate.m in Sources */,
+				424F607919315D6B004BF9C3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		424F608319315D6B004BF9C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				424F609619315D6B004BF9C3 /* ChineseUnionPortalTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		424F608E19315D6B004BF9C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 424F606619315D6B004BF9C3 /* ChineseUnionPortal */;
+			targetProxy = 424F608D19315D6B004BF9C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		424F607519315D6B004BF9C3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				424F607619315D6B004BF9C3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		424F609219315D6B004BF9C3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				424F609319315D6B004BF9C3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		424F609719315D6B004BF9C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		424F609819315D6B004BF9C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		424F609A19315D6B004BF9C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChineseUnionPortal/ChineseUnionPortal-Prefix.pch";
+				INFOPLIST_FILE = "ChineseUnionPortal/ChineseUnionPortal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		424F609B19315D6B004BF9C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChineseUnionPortal/ChineseUnionPortal-Prefix.pch";
+				INFOPLIST_FILE = "ChineseUnionPortal/ChineseUnionPortal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		424F609D19315D6B004BF9C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ChineseUnionPortal.app/ChineseUnionPortal";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChineseUnionPortal/ChineseUnionPortal-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ChineseUnionPortalTests/ChineseUnionPortalTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		424F609E19315D6B004BF9C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ChineseUnionPortal.app/ChineseUnionPortal";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChineseUnionPortal/ChineseUnionPortal-Prefix.pch";
+				INFOPLIST_FILE = "ChineseUnionPortalTests/ChineseUnionPortalTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		424F606219315D6B004BF9C3 /* Build configuration list for PBXProject "ChineseUnionPortal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				424F609719315D6B004BF9C3 /* Debug */,
+				424F609819315D6B004BF9C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		424F609919315D6B004BF9C3 /* Build configuration list for PBXNativeTarget "ChineseUnionPortal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				424F609A19315D6B004BF9C3 /* Debug */,
+				424F609B19315D6B004BF9C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		424F609C19315D6B004BF9C3 /* Build configuration list for PBXNativeTarget "ChineseUnionPortalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				424F609D19315D6B004BF9C3 /* Debug */,
+				424F609E19315D6B004BF9C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		424F607E19315D6B004BF9C3 /* ChineseUnionPortal.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				424F607F19315D6B004BF9C3 /* ChineseUnionPortal.xcdatamodel */,
+			);
+			currentVersion = 424F607F19315D6B004BF9C3 /* ChineseUnionPortal.xcdatamodel */;
+			path = ChineseUnionPortal.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 424F605F19315D6B004BF9C3 /* Project object */;
+}
