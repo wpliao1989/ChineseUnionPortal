@@ -38,6 +38,23 @@
 		424F60D61931718D004BF9C3 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 424F60CC1931718D004BF9C3 /* AFXMLRequestOperation.m */; };
 		424F60D71931718D004BF9C3 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 424F60CE1931718D004BF9C3 /* UIImageView+AFNetworking.m */; };
 		424F60E019317BFC004BF9C3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 424F60DF19317BFC004BF9C3 /* Images.xcassets */; };
+		424F61301935007F004BF9C3 /* EventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 424F612F1935007F004BF9C3 /* EventViewController.m */; };
+		424F615F19350CDA004BF9C3 /* CALAgendaCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 424F614019350CDA004BF9C3 /* CALAgendaCollectionView.m */; };
+		424F616019350CDA004BF9C3 /* CALAgendaDayCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 424F614319350CDA004BF9C3 /* CALAgendaDayCollectionViewLayout.m */; };
+		424F616119350CDA004BF9C3 /* CALAgendaMonthCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 424F614619350CDA004BF9C3 /* CALAgendaMonthCollectionViewLayout.m */; };
+		424F616219350CDA004BF9C3 /* CALAgendaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 424F614819350CDA004BF9C3 /* CALAgendaViewController.m */; };
+		424F616319350CDA004BF9C3 /* CALCollectionViewFlowLayoutWithStickyHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 424F614A19350CDA004BF9C3 /* CALCollectionViewFlowLayoutWithStickyHeader.m */; };
+		424F616419350CDA004BF9C3 /* CALDay.m in Sources */ = {isa = PBXBuildFile; fileRef = 424F614C19350CDA004BF9C3 /* CALDay.m */; };
+		424F616519350CDA004BF9C3 /* CALDayCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 424F614E19350CDA004BF9C3 /* CALDayCollectionViewCell.m */; };
+		424F616619350CDA004BF9C3 /* CALDayHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 424F615019350CDA004BF9C3 /* CALDayHeaderView.m */; };
+		424F616719350CDA004BF9C3 /* CALDayHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 424F615119350CDA004BF9C3 /* CALDayHeaderView.xib */; };
+		424F616819350CDA004BF9C3 /* CALMonthHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 424F615319350CDA004BF9C3 /* CALMonthHeaderView.m */; };
+		424F616919350CDA004BF9C3 /* CALQuartHour.m in Sources */ = {isa = PBXBuildFile; fileRef = 424F615519350CDA004BF9C3 /* CALQuartHour.m */; };
+		424F616A19350CDA004BF9C3 /* CALQuartHourCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 424F615719350CDA004BF9C3 /* CALQuartHourCollectionViewCell.m */; };
+		424F616B19350CDA004BF9C3 /* NSDate+Agenda.m in Sources */ = {isa = PBXBuildFile; fileRef = 424F615A19350CDA004BF9C3 /* NSDate+Agenda.m */; };
+		424F616C19350CDA004BF9C3 /* NSDate+ETI.m in Sources */ = {isa = PBXBuildFile; fileRef = 424F615C19350CDA004BF9C3 /* NSDate+ETI.m */; };
+		424F616D19350CDA004BF9C3 /* NSDateFormatter+CAT.m in Sources */ = {isa = PBXBuildFile; fileRef = 424F615E19350CDA004BF9C3 /* NSDateFormatter+CAT.m */; };
+		424F617019350CF9004BF9C3 /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 424F616F19350CF9004BF9C3 /* CalendarViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +118,43 @@
 		424F60CD1931718D004BF9C3 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
 		424F60CE1931718D004BF9C3 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
 		424F60DF19317BFC004BF9C3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		424F612E1935007F004BF9C3 /* EventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventViewController.h; sourceTree = "<group>"; };
+		424F612F1935007F004BF9C3 /* EventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventViewController.m; sourceTree = "<group>"; };
+		424F613E19350CDA004BF9C3 /* CALAgenda.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALAgenda.h; sourceTree = "<group>"; };
+		424F613F19350CDA004BF9C3 /* CALAgendaCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALAgendaCollectionView.h; sourceTree = "<group>"; };
+		424F614019350CDA004BF9C3 /* CALAgendaCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALAgendaCollectionView.m; sourceTree = "<group>"; };
+		424F614119350CDA004BF9C3 /* CALAgendaCollectionViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALAgendaCollectionViewDelegate.h; sourceTree = "<group>"; };
+		424F614219350CDA004BF9C3 /* CALAgendaDayCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALAgendaDayCollectionViewLayout.h; sourceTree = "<group>"; };
+		424F614319350CDA004BF9C3 /* CALAgendaDayCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALAgendaDayCollectionViewLayout.m; sourceTree = "<group>"; };
+		424F614419350CDA004BF9C3 /* CALAgendaEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALAgendaEvent.h; sourceTree = "<group>"; };
+		424F614519350CDA004BF9C3 /* CALAgendaMonthCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALAgendaMonthCollectionViewLayout.h; sourceTree = "<group>"; };
+		424F614619350CDA004BF9C3 /* CALAgendaMonthCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALAgendaMonthCollectionViewLayout.m; sourceTree = "<group>"; };
+		424F614719350CDA004BF9C3 /* CALAgendaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALAgendaViewController.h; sourceTree = "<group>"; };
+		424F614819350CDA004BF9C3 /* CALAgendaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALAgendaViewController.m; sourceTree = "<group>"; };
+		424F614919350CDA004BF9C3 /* CALCollectionViewFlowLayoutWithStickyHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALCollectionViewFlowLayoutWithStickyHeader.h; sourceTree = "<group>"; };
+		424F614A19350CDA004BF9C3 /* CALCollectionViewFlowLayoutWithStickyHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALCollectionViewFlowLayoutWithStickyHeader.m; sourceTree = "<group>"; };
+		424F614B19350CDA004BF9C3 /* CALDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALDay.h; sourceTree = "<group>"; };
+		424F614C19350CDA004BF9C3 /* CALDay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALDay.m; sourceTree = "<group>"; };
+		424F614D19350CDA004BF9C3 /* CALDayCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALDayCollectionViewCell.h; sourceTree = "<group>"; };
+		424F614E19350CDA004BF9C3 /* CALDayCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALDayCollectionViewCell.m; sourceTree = "<group>"; };
+		424F614F19350CDA004BF9C3 /* CALDayHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALDayHeaderView.h; sourceTree = "<group>"; };
+		424F615019350CDA004BF9C3 /* CALDayHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALDayHeaderView.m; sourceTree = "<group>"; };
+		424F615119350CDA004BF9C3 /* CALDayHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CALDayHeaderView.xib; sourceTree = "<group>"; };
+		424F615219350CDA004BF9C3 /* CALMonthHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALMonthHeaderView.h; sourceTree = "<group>"; };
+		424F615319350CDA004BF9C3 /* CALMonthHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALMonthHeaderView.m; sourceTree = "<group>"; };
+		424F615419350CDA004BF9C3 /* CALQuartHour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALQuartHour.h; sourceTree = "<group>"; };
+		424F615519350CDA004BF9C3 /* CALQuartHour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALQuartHour.m; sourceTree = "<group>"; };
+		424F615619350CDA004BF9C3 /* CALQuartHourCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALQuartHourCollectionViewCell.h; sourceTree = "<group>"; };
+		424F615719350CDA004BF9C3 /* CALQuartHourCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALQuartHourCollectionViewCell.m; sourceTree = "<group>"; };
+		424F615819350CDA004BF9C3 /* JMOLogMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMOLogMacro.h; sourceTree = "<group>"; };
+		424F615919350CDA004BF9C3 /* NSDate+Agenda.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Agenda.h"; sourceTree = "<group>"; };
+		424F615A19350CDA004BF9C3 /* NSDate+Agenda.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Agenda.m"; sourceTree = "<group>"; };
+		424F615B19350CDA004BF9C3 /* NSDate+ETI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+ETI.h"; sourceTree = "<group>"; };
+		424F615C19350CDA004BF9C3 /* NSDate+ETI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ETI.m"; sourceTree = "<group>"; };
+		424F615D19350CDA004BF9C3 /* NSDateFormatter+CAT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+CAT.h"; sourceTree = "<group>"; };
+		424F615E19350CDA004BF9C3 /* NSDateFormatter+CAT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+CAT.m"; sourceTree = "<group>"; };
+		424F616E19350CF9004BF9C3 /* CalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarViewController.h; sourceTree = "<group>"; };
+		424F616F19350CF9004BF9C3 /* CalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +225,10 @@
 				424F607C19315D6B004BF9C3 /* AppDelegate.m */,
 				424F60A119315E96004BF9C3 /* MainViewController.h */,
 				424F60A219315E96004BF9C3 /* MainViewController.m */,
+				424F612E1935007F004BF9C3 /* EventViewController.h */,
+				424F612F1935007F004BF9C3 /* EventViewController.m */,
+				424F616E19350CF9004BF9C3 /* CalendarViewController.h */,
+				424F616F19350CF9004BF9C3 /* CalendarViewController.m */,
 				424F60AA19316D5F004BF9C3 /* data.json */,
 				424F607E19315D6B004BF9C3 /* ChineseUnionPortal.xcdatamodeld */,
 				424F60DF19317BFC004BF9C3 /* Images.xcassets */,
@@ -211,6 +269,7 @@
 		424F60A41931696B004BF9C3 /* ThirdParty */ = {
 			isa = PBXGroup;
 			children = (
+				424F613D19350CDA004BF9C3 /* CalendarIOS7 */,
 				424F60BB1931718D004BF9C3 /* AFNetworking */,
 				424F60AC19317014004BF9C3 /* MosaicLayout */,
 			);
@@ -289,6 +348,46 @@
 			path = AFNetworking;
 			sourceTree = "<group>";
 		};
+		424F613D19350CDA004BF9C3 /* CalendarIOS7 */ = {
+			isa = PBXGroup;
+			children = (
+				424F613E19350CDA004BF9C3 /* CALAgenda.h */,
+				424F613F19350CDA004BF9C3 /* CALAgendaCollectionView.h */,
+				424F614019350CDA004BF9C3 /* CALAgendaCollectionView.m */,
+				424F614119350CDA004BF9C3 /* CALAgendaCollectionViewDelegate.h */,
+				424F614219350CDA004BF9C3 /* CALAgendaDayCollectionViewLayout.h */,
+				424F614319350CDA004BF9C3 /* CALAgendaDayCollectionViewLayout.m */,
+				424F614419350CDA004BF9C3 /* CALAgendaEvent.h */,
+				424F614519350CDA004BF9C3 /* CALAgendaMonthCollectionViewLayout.h */,
+				424F614619350CDA004BF9C3 /* CALAgendaMonthCollectionViewLayout.m */,
+				424F614719350CDA004BF9C3 /* CALAgendaViewController.h */,
+				424F614819350CDA004BF9C3 /* CALAgendaViewController.m */,
+				424F614919350CDA004BF9C3 /* CALCollectionViewFlowLayoutWithStickyHeader.h */,
+				424F614A19350CDA004BF9C3 /* CALCollectionViewFlowLayoutWithStickyHeader.m */,
+				424F614B19350CDA004BF9C3 /* CALDay.h */,
+				424F614C19350CDA004BF9C3 /* CALDay.m */,
+				424F614D19350CDA004BF9C3 /* CALDayCollectionViewCell.h */,
+				424F614E19350CDA004BF9C3 /* CALDayCollectionViewCell.m */,
+				424F614F19350CDA004BF9C3 /* CALDayHeaderView.h */,
+				424F615019350CDA004BF9C3 /* CALDayHeaderView.m */,
+				424F615119350CDA004BF9C3 /* CALDayHeaderView.xib */,
+				424F615219350CDA004BF9C3 /* CALMonthHeaderView.h */,
+				424F615319350CDA004BF9C3 /* CALMonthHeaderView.m */,
+				424F615419350CDA004BF9C3 /* CALQuartHour.h */,
+				424F615519350CDA004BF9C3 /* CALQuartHour.m */,
+				424F615619350CDA004BF9C3 /* CALQuartHourCollectionViewCell.h */,
+				424F615719350CDA004BF9C3 /* CALQuartHourCollectionViewCell.m */,
+				424F615819350CDA004BF9C3 /* JMOLogMacro.h */,
+				424F615919350CDA004BF9C3 /* NSDate+Agenda.h */,
+				424F615A19350CDA004BF9C3 /* NSDate+Agenda.m */,
+				424F615B19350CDA004BF9C3 /* NSDate+ETI.h */,
+				424F615C19350CDA004BF9C3 /* NSDate+ETI.m */,
+				424F615D19350CDA004BF9C3 /* NSDateFormatter+CAT.h */,
+				424F615E19350CDA004BF9C3 /* NSDateFormatter+CAT.m */,
+			);
+			path = CalendarIOS7;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -365,6 +464,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				424F607719315D6B004BF9C3 /* InfoPlist.strings in Resources */,
+				424F616719350CDA004BF9C3 /* CALDayHeaderView.xib in Resources */,
 				424F60E019317BFC004BF9C3 /* Images.xcassets in Resources */,
 				424F60AB19316D5F004BF9C3 /* data.json in Resources */,
 				424F60A019315D84004BF9C3 /* Storyboard.storyboard in Resources */,
@@ -386,22 +486,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				424F616919350CDA004BF9C3 /* CALQuartHour.m in Sources */,
 				424F608019315D6B004BF9C3 /* ChineseUnionPortal.xcdatamodeld in Sources */,
 				424F60D71931718D004BF9C3 /* UIImageView+AFNetworking.m in Sources */,
+				424F616119350CDA004BF9C3 /* CALAgendaMonthCollectionViewLayout.m in Sources */,
 				424F60A919316D04004BF9C3 /* CustomDataSource.m in Sources */,
+				424F61301935007F004BF9C3 /* EventViewController.m in Sources */,
+				424F616D19350CDA004BF9C3 /* NSDateFormatter+CAT.m in Sources */,
 				424F60D21931718D004BF9C3 /* AFJSONRequestOperation.m in Sources */,
 				424F60D01931718D004BF9C3 /* AFHTTPRequestOperation.m in Sources */,
 				424F60D61931718D004BF9C3 /* AFXMLRequestOperation.m in Sources */,
+				424F617019350CF9004BF9C3 /* CalendarViewController.m in Sources */,
+				424F616A19350CDA004BF9C3 /* CALQuartHourCollectionViewCell.m in Sources */,
 				424F60D51931718D004BF9C3 /* AFURLConnectionOperation.m in Sources */,
+				424F616019350CDA004BF9C3 /* CALAgendaDayCollectionViewLayout.m in Sources */,
 				424F60D11931718D004BF9C3 /* AFImageRequestOperation.m in Sources */,
 				424F60CF1931718D004BF9C3 /* AFHTTPClient.m in Sources */,
 				424F607D19315D6B004BF9C3 /* AppDelegate.m in Sources */,
+				424F616C19350CDA004BF9C3 /* NSDate+ETI.m in Sources */,
+				424F616619350CDA004BF9C3 /* CALDayHeaderView.m in Sources */,
+				424F616319350CDA004BF9C3 /* CALCollectionViewFlowLayoutWithStickyHeader.m in Sources */,
 				424F60BA19317014004BF9C3 /* MosaicCell.m in Sources */,
 				424F60D41931718D004BF9C3 /* AFPropertyListRequestOperation.m in Sources */,
+				424F616519350CDA004BF9C3 /* CALDayCollectionViewCell.m in Sources */,
 				424F60B819317014004BF9C3 /* MosaicLayout.m in Sources */,
+				424F616419350CDA004BF9C3 /* CALDay.m in Sources */,
+				424F615F19350CDA004BF9C3 /* CALAgendaCollectionView.m in Sources */,
 				424F60D31931718D004BF9C3 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				424F607919315D6B004BF9C3 /* main.m in Sources */,
+				424F616819350CDA004BF9C3 /* CALMonthHeaderView.m in Sources */,
+				424F616219350CDA004BF9C3 /* CALAgendaViewController.m in Sources */,
 				424F60A319315E96004BF9C3 /* MainViewController.m in Sources */,
+				424F616B19350CDA004BF9C3 /* NSDate+Agenda.m in Sources */,
 				424F60B919317014004BF9C3 /* MosaicData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -611,6 +727,7 @@
 				424F609B19315D6B004BF9C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		424F609C19315D6B004BF9C3 /* Build configuration list for PBXNativeTarget "ChineseUnionPortalTests" */ = {
 			isa = XCConfigurationList;
@@ -619,6 +736,7 @@
 				424F609E19315D6B004BF9C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

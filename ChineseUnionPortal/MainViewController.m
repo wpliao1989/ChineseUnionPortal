@@ -10,6 +10,7 @@
 #import "CustomDataSource.h"
 #import "MosaicLayout/Entities/MosaicData.h"
 #import "MosaicLayout/Controllers/MosaicLayout.h"
+#import "CALAgenda.h"
 
 #define kDoubleColumnProbability 40
 #define kColumnsiPadLandscape 5
@@ -31,6 +32,52 @@
     // Do any additional setup after loading the view.
     
     [(MosaicLayout *)self.collectionView.collectionViewLayout setDelegate:self];
+    
+    
+    
+//    UIColor *colorOne = [UIColor colorWithRed:(120/255.0) green:(135/255.0) blue:(150/255.0) alpha:1.0];
+//    UIColor *colorTwo = [UIColor colorWithRed:(57/255.0)  green:(79/255.0)  blue:(96/255.0)  alpha:1.0];
+//
+//    NSArray *colors = [NSArray arrayWithObjects:(id)colorOne.CGColor, colorTwo.CGColor, nil];
+//    NSNumber *stopOne = [NSNumber numberWithFloat:0.0];
+//    NSNumber *stopTwo = [NSNumber numberWithFloat:1.0];
+//    
+//    NSArray *locations = [NSArray arrayWithObjects:stopOne, stopTwo, nil];
+//    
+//    CAGradientLayer *headerLayer = [CAGradientLayer layer];
+//    headerLayer.colors = colors;
+//    headerLayer.locations = locations;
+//    
+//    [self.view.layer insertSublayer:headerLayer atIndex:0];
+    
+    // Create the colors
+//    UIColor *darkOp =
+//    [UIColor colorWithRed:0.62f green:0.4f blue:0.42f alpha:0.3];
+//    UIColor *lightOp =
+//    [UIColor colorWithRed:0.43f green:0.76f blue:0.07f alpha:0.3];
+    
+//    UIColor *darkOp =
+//    [UIColor colorWithRed:(120/255.0) green:(135/255.0) blue:(150/255.0) alpha:0.3];
+//    UIColor *lightOp =
+//    [UIColor colorWithRed:(57/255.0)  green:(79/255.0)  blue:(96/255.0)  alpha:0.3];
+//    
+//    // Create the gradient
+//    CAGradientLayer *gradient = [CAGradientLayer layer];
+//    
+//    // Set colors
+//    gradient.colors = [NSArray arrayWithObjects:
+//                       (id)lightOp.CGColor,
+//                       (id)darkOp.CGColor,
+//                       nil];
+//    
+//    // Set bounds
+//    gradient.frame = self.view.bounds;
+//    
+//    // Add the gradient to the view
+//    [self.view.layer insertSublayer:gradient atIndex:0];
+    
+    UIColor *background = [UIColor colorWithPatternImage:[UIImage imageNamed:@"background"]];
+    self.view.backgroundColor = background;
 }
 
 #pragma mark - MosaicLayoutDelegate
@@ -118,6 +165,26 @@
     }
     
     return retVal;
+}
+
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
+    NSLog(@"Did select item:%@", indexPath);
+    switch (indexPath.row) {
+        case 0:
+            [self performSegueWithIdentifier:@"eventSegue" sender:self];
+            break;
+            
+        case 1:
+            [self performSegueWithIdentifier:@"storeSegue" sender:self];
+            break;
+            
+        case 2:
+            [self performSegueWithIdentifier:@"calendarSegue" sender:self];
+            break;
+            
+        default:
+            break;
+    }
 }
 
 /*
