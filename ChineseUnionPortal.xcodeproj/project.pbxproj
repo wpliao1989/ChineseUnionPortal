@@ -55,6 +55,7 @@
 		424F616C19350CDA004BF9C3 /* NSDate+ETI.m in Sources */ = {isa = PBXBuildFile; fileRef = 424F615C19350CDA004BF9C3 /* NSDate+ETI.m */; };
 		424F616D19350CDA004BF9C3 /* NSDateFormatter+CAT.m in Sources */ = {isa = PBXBuildFile; fileRef = 424F615E19350CDA004BF9C3 /* NSDateFormatter+CAT.m */; };
 		424F617019350CF9004BF9C3 /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 424F616F19350CF9004BF9C3 /* CalendarViewController.m */; };
+		424F617319352F07004BF9C3 /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 424F617219352F07004BF9C3 /* ContactViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -155,6 +156,8 @@
 		424F615E19350CDA004BF9C3 /* NSDateFormatter+CAT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+CAT.m"; sourceTree = "<group>"; };
 		424F616E19350CF9004BF9C3 /* CalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarViewController.h; sourceTree = "<group>"; };
 		424F616F19350CF9004BF9C3 /* CalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarViewController.m; sourceTree = "<group>"; };
+		424F617119352F07004BF9C3 /* ContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactViewController.h; sourceTree = "<group>"; };
+		424F617219352F07004BF9C3 /* ContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -229,6 +232,8 @@
 				424F612F1935007F004BF9C3 /* EventViewController.m */,
 				424F616E19350CF9004BF9C3 /* CalendarViewController.h */,
 				424F616F19350CF9004BF9C3 /* CalendarViewController.m */,
+				424F617119352F07004BF9C3 /* ContactViewController.h */,
+				424F617219352F07004BF9C3 /* ContactViewController.m */,
 				424F60AA19316D5F004BF9C3 /* data.json */,
 				424F607E19315D6B004BF9C3 /* ChineseUnionPortal.xcdatamodeld */,
 				424F60DF19317BFC004BF9C3 /* Images.xcassets */,
@@ -509,6 +514,7 @@
 				424F60BA19317014004BF9C3 /* MosaicCell.m in Sources */,
 				424F60D41931718D004BF9C3 /* AFPropertyListRequestOperation.m in Sources */,
 				424F616519350CDA004BF9C3 /* CALDayCollectionViewCell.m in Sources */,
+				424F617319352F07004BF9C3 /* ContactViewController.m in Sources */,
 				424F60B819317014004BF9C3 /* MosaicLayout.m in Sources */,
 				424F616419350CDA004BF9C3 /* CALDay.m in Sources */,
 				424F615F19350CDA004BF9C3 /* CALAgendaCollectionView.m in Sources */,

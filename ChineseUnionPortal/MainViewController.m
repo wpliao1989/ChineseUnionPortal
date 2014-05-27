@@ -76,7 +76,7 @@
 //    // Add the gradient to the view
 //    [self.view.layer insertSublayer:gradient atIndex:0];
     
-    UIColor *background = [UIColor colorWithPatternImage:[UIImage imageNamed:@"background"]];
+    UIColor *background = [UIColor colorWithPatternImage:[UIImage imageNamed:@"background2"]];
     self.view.backgroundColor = background;
 }
 
@@ -180,6 +180,18 @@
             
         case 2:
             [self performSegueWithIdentifier:@"calendarSegue" sender:self];
+            break;
+            
+        case 3:
+            [self performSegueWithIdentifier:@"soccerSegue" sender:self];
+            break;
+        
+        case 4:
+            [self performSegueWithIdentifier:@"basketballSegue" sender:self];
+            break;
+        
+        case 5:
+            [self performSegueWithIdentifier:@"contactSegue" sender:self];
             break;
             
         default:
